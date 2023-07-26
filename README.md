@@ -15,4 +15,4 @@ If you find any issues or have suggestions for improvements, feel free to open a
 
 ## Acknowledgments
 - Special thanks to OpenAI for providing the API.
-- Image credit: [Pixabay](link-to-image)
+- Image credit: [Pixabay](https://cdn.pixabay.com/photo/2023/02/05/17/33/ai-generated-7770055_640.jpg)
