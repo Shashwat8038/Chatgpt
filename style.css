@@ -1,0 +1,150 @@
+
+
+
+    /* Updated CSS styles */
+    body {
+        margin: 0;
+        padding: 0;
+        background-color: #343541; /* Darker background color */
+        display: flex;
+    }
+
+    h1 {
+        font-size: 40px;
+        font-weight: 800; /* Bolder heading font */
+        padding: 40px 0; /* Increased padding */
+        background-color:#fff; /* Linear gradient from left to right */
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .side-bar {
+        background-color: #8484b0; /* Darker sidebar background */
+        height: 100vh;
+        width: 244px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+      background-image: url("https://media.istockphoto.com/id/1413717270/photo/the-texture-of-a-white-wooden-board-empty-background.webp?b=1&s=612x612&w=0&k=20&c=pnOFtu1CrmulRaNgbuHKnI9aO00qpxLdcmiRSisroI0=");
+    }
+
+    .main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: space-between;
+        padding: 40px; /* Added padding */
+        flex-grow: 1; /* Take remaining width */
+    }
+
+    .bottom-section {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .info {
+        color: rgba(255, 255, 255, 0.7); /* Lighter info text color */
+        font-size: 11px;
+        padding: 10px;
+    }
+
+    input {
+        border: none;
+        background-color: rgba(255, 255, 255, 0.9); /* Lighter input field background */
+        width: 100%;
+        font-size: 18px; /* Slightly reduced font size */
+        padding: 12px 15px;
+        border-radius: 8px; /* Rounded corners */
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Softer box shadow */
+    }
+
+    input:focus {
+        outline: none;
+    }
+
+    .input-container {
+        width: 100%;
+        max-width: 650px;
+        position: relative;
+    }
+
+    .input-container #submit {
+        position: absolute;
+        right: 0;
+        bottom: 15px;
+        cursor: pointer;
+        
+    }
+
+    button {
+        border: none;
+        background-color: #060806; /* Green button background */
+        border-radius: 5px;
+        padding: 12px 20px;
+        margin: 10px;
+        color: #fff;
+        font-size: 16px;
+        cursor: pointer;
+        transition: background-color 0.3s ease; /* Smooth hover effect */
+    }
+
+    button:hover {
+        background-color: #45a049; /* Darker green on hover */
+    }
+
+    nav {
+        display: flex;
+        justify-content:space-between;
+        border-top: solid 0.5px rgba(199, 177, 177, 0.5);
+        background: #585a5b9d;
+        
+    }
+    nav>p{
+        font-size: medium;
+        font-family: sans-serif;
+    }
+    nav>img{
+        height:60px;
+        width:60px;
+        display: flex;
+        
+    }
+
+    .history {
+        padding: 10px;
+        margin-top: 10px;
+        height: 200px; /* Set a fixed height for scrolling */
+        overflow-y: auto; /* Enable vertical scrolling */
+        text-align: center;
+        font-size: 15px;
+    }
+
+    .history p {
+        margin: 5px 0; /* Add spacing between history elements */
+        color:#060806;
+        font-size: 15px;;
+    }
+
+.main>video{
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1; 
+}
+.main>#output
+{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+}
