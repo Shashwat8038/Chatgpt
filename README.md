@@ -1,7 +1,7 @@
 # ChatGpt Clone
 
 ## Description
-This is a simple ChatGpt clone that uses the OpenAI GPT-3.5-turbo model to generate responses to user inputs.
+This is a simple ChatGpt clone that uses the OpenAI API to generate responses to user inputs.
 
 ## Usage
 1. Clone the repository to your local machine.
@@ -14,5 +14,5 @@ This is a simple ChatGpt clone that uses the OpenAI GPT-3.5-turbo model to gener
 If you find any issues or have suggestions for improvements, feel free to open an issue or submit a pull request.
 
 ## Acknowledgments
-- Special thanks to OpenAI for providing the GPT-3.5-turbo model.
+- Special thanks to OpenAI for providing the API.
 - Image credit: [Pixabay](link-to-image)
